@@ -4,3 +4,5 @@ This project focuses on using TCPDump to capture and analyze network traffic acr
 Introduction
 
 TCPDump is a widely-used network sniffing tool that enables users to capture and analyze data traffic from any layer of the OSI model. In this project, we explore basic and advanced usage of TCPDump, including applying filters to narrow down traffic, capturing specific types of data, and exporting results for further analysis.
+
+# Skills Required

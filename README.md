@@ -63,5 +63,13 @@ To capture traffic for an entire subnet, specify the subnet mask:
 ```
 tcpdump -i eth0 net <NETWORK_ADDRESS>/<SUBNET_MASK>
 ```
+![image alt](https://github.com/KRakeshkumar0011/TCPDump-Network-Traffic-Analysis/blob/main/images/5.png)
 
+Filter by Protocol
+
+To capture only TCP or UDP traffic:
+```
+tcpdump -i eth0 tcp
+tcpdump -i eth0 udp
+```
 

@@ -80,4 +80,8 @@ To capture traffic from a specific port:
 ```
 tcpdump -i eth0 port <PORT_NUMBER>
 ```
+![image alt](https://github.com/KRakeshkumar0011/TCPDump-Network-Traffic-Analysis/blob/main/images/7.png)
+
+# Exporting Captured Data
+To save captured packets for later analysis (e.g., in Wireshark), use the -w option to generate a .pcap file:
 

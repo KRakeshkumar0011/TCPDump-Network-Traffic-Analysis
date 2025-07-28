@@ -44,6 +44,10 @@ tcpdump -i eth0 host <IP_ADDRESS> -v
 Filter by Destination
 
 To capture traffic destined for a specific IP address:
+```
+tcpdump -i eth0 dst <IP_ADDRESS>
+```
+
 
 
 

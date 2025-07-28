@@ -83,7 +83,7 @@ tcpdump -i eth0 port <PORT_NUMBER>
 ```
 ![mage alt](https://github.com/KRakeshkumar0011/TCPDump-Network-Traffic-Analysis/blob/main/images/8.png)
 
-# Exporting Captured Data
+### Exporting Captured Data
 To save captured packets for later analysis (e.g., in Wireshark), use the -w option to generate a .pcap file:
 ```
 tcpdump -i eth0 -w output.pcap
@@ -93,5 +93,5 @@ tcpdump -i eth0 -w output.pcap
 
 This file can then be opened in tools like Wireshark for further inspection.
 
-# Conclusion
+## Conclusion
 This project provided a solid foundation in network traffic analysis using TCPDump. By applying filters and exporting data, we can efficiently monitor and inspect network activity, making it a valuable skill for network administrators and security professionals.

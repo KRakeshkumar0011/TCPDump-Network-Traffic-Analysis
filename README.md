@@ -87,5 +87,6 @@ To save captured packets for later analysis (e.g., in Wireshark), use the -w opt
 ```
 tcpdump -i eth0 -w output.pcap
 ```
+![mage alt](https://github.com/KRakeshkumar0011/TCPDump-Network-Traffic-Analysis/blob/main/images/8.png)
 
 

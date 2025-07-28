@@ -84,4 +84,8 @@ tcpdump -i eth0 port <PORT_NUMBER>
 
 # Exporting Captured Data
 To save captured packets for later analysis (e.g., in Wireshark), use the -w option to generate a .pcap file:
+```
+tcpdump -i eth0 -w output.pcap
+```
+
 

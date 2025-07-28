@@ -32,6 +32,10 @@ Applying Filters
 Filter by Host
 
 To capture traffic from a specific host, use:
+```
+tcpdump -i eth0 host <IP_ADDRESS> -v
+```
+
 
 
 

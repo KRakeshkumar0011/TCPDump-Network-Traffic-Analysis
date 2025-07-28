@@ -47,7 +47,13 @@ To capture traffic destined for a specific IP address:
 ```
 tcpdump -i eth0 dst <IP_ADDRESS>
 ```
+![image alt](https://github.com/KRakeshkumar0011/TCPDump-Network-Traffic-Analysis/blob/main/images/3.png)
 
+Combine Filters
 
+You can combine filters to refine your capture. For example:
+```
+tcpdump -i eth0 host <IP_ADDRESS> and dst <DESTINATION_IP>
+```
 
 

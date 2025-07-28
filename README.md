@@ -16,7 +16,7 @@ Data Exporting: Practiced exporting captured data into .pcap files for further a
 
 Command-Line Proficiency: Improved command-line skills by working with TCPDump and its options.
 
-# documentation
+# Documentation
 Basic Usage
 
 To start capturing network traffic, you can use the following command:

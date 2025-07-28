@@ -55,5 +55,13 @@ You can combine filters to refine your capture. For example:
 ```
 tcpdump -i eth0 host <IP_ADDRESS> and dst <DESTINATION_IP>
 ```
+![image alt](https://github.com/KRakeshkumar0011/TCPDump-Network-Traffic-Analysis/blob/main/images/4.png)
+
+Scan an Entire Subnet
+
+To capture traffic for an entire subnet, specify the subnet mask:
+```
+tcpdump -i eth0 net <NETWORK_ADDRESS>/<SUBNET_MASK>
+```
 
 

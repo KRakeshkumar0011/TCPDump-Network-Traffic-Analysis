@@ -72,4 +72,12 @@ To capture only TCP or UDP traffic:
 tcpdump -i eth0 tcp
 tcpdump -i eth0 udp
 ```
+![image alt](https://github.com/KRakeshkumar0011/TCPDump-Network-Traffic-Analysis/blob/main/images/6.png)
+
+Filter by Port
+
+To capture traffic from a specific port:
+```
+tcpdump -i eth0 port <PORT_NUMBER>
+```
 

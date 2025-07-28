@@ -37,5 +37,13 @@ tcpdump -i eth0 host <IP_ADDRESS> -v
 ```
 ![image alt](https://github.com/KRakeshkumar0011/TCPDump-Network-Traffic-Analysis/blob/main/images/2.png)
 
+* host: Filters traffic by a specific IP address.
+
+* -v: Provides verbose output for detailed information.
+
+Filter by Destination
+
+To capture traffic destined for a specific IP address:
+
 
 

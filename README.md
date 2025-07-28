@@ -39,5 +39,3 @@ tcpdump -i eth0 host <IP_ADDRESS> -v
 
 
 
-
-

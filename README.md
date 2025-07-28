@@ -35,7 +35,7 @@ To capture traffic from a specific host, use:
 ```
 tcpdump -i eth0 host <IP_ADDRESS> -v
 ```
-
+![image alt](https://github.com/KRakeshkumar0011/TCPDump-Network-Traffic-Analysis/blob/main/images/2.png)
 
 
 

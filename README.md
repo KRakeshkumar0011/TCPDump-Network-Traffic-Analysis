@@ -73,20 +73,20 @@ tcpdump -i eth0 tcp
 tcpdump -i eth0 udp
 ```
 ![image alt](https://github.com/KRakeshkumar0011/TCPDump-Network-Traffic-Analysis/blob/main/images/6.png)
-
+![image alt](https://github.com/KRakeshkumar0011/TCPDump-Network-Traffic-Analysis/blob/main/images/7.png)
 Filter by Port
 
 To capture traffic from a specific port:
 ```
 tcpdump -i eth0 port <PORT_NUMBER>
 ```
-![image alt](https://github.com/KRakeshkumar0011/TCPDump-Network-Traffic-Analysis/blob/main/images/7.png)
+![mage alt](https://github.com/KRakeshkumar0011/TCPDump-Network-Traffic-Analysis/blob/main/images/8.png)
 
 # Exporting Captured Data
 To save captured packets for later analysis (e.g., in Wireshark), use the -w option to generate a .pcap file:
 ```
 tcpdump -i eth0 -w output.pcap
 ```
-![mage alt](https://github.com/KRakeshkumar0011/TCPDump-Network-Traffic-Analysis/blob/main/images/8.png)
+
 
 

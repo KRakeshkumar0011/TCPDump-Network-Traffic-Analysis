@@ -28,7 +28,7 @@ tcpdump -i eth0
 * -i: Specifies the interface to capture traffic from (e.g., eth0 for Ethernet or wlan0 for Wi-Fi).
 This command captures all traffic on the specified interface, which can result in a large amount of data. To make the output more manageable, we can apply filters.
 
-Applying Filters
+##Applying Filters
 Filter by Host
 
 To capture traffic from a specific host, use:
